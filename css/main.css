@@ -1,0 +1,82 @@
+.primary-overlay {
+  background: rgba(80, 88, 117, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/showcase.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+
+.logo-img {
+  max-height: 50px !important;
+  padding: 2px 2px !important;
+  margin-right: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  opacity: 0.9;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.info {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.card-testimonials {
+  margin-top: 25px;
+}
+
+.mobile-brand {
+  display: block;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+
+  nav .brand-logo {
+    padding-left: 3vw;
+  }
+}

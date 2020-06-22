@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+	<link rel="icon" href="./img/logo-jpg.jpg" type="image/x-icon">
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Inambero Solutions</title>
+</head>
+
+<body id="home" class="scrollspy">
+	<header class="main-header">
+		<div class="primary-overlay">
+			<div class="navbar-fixed">
+				<nav class="transparent">
+					<div class="container">
+						<div class="nav-wrapper">
+							<img href="#home" src="./img/logo3.png" alt="logo" class="responsive-img logo-img">
+							<h4 class="brand-logo" href="#home">Inambero</h4>
+							<a href="#" data-activates="mobile-nav" class="button-collapse">
+								<i class="material-icons">menu</i>
+							</a>
+							<ul class="right hide-on-med-and-down">
+								<li>
+									<a href="#home">Home</a>
+								</li>
+								<li>
+									<a href="#about">About</a>
+								</li>
+								<li>
+									<a href="services.html">Services</a>
+								</li>
+								<li>
+									<a href="#testimonials">Testimonials</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								<li>
+									<a onclick="changeLanguage()" id="language"
+										class="btn blue-grey darken-2">English</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<!-- Side nav -->
+			<ul class="side-nav" id="mobile-nav">
+
+				<li>
+					<a class="divider"></a>
+				</li>
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="services.html">Services</a>
+				</li>
+				<li>
+					<a href="#testimonials">Testimonials</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+				<li>
+					<a onclick="changeLanguageMobile()" id="language-mobile" class="btn blue-grey darken-2">English</a>
+				</li>
+			</ul>
+			<!-- Showcase -->
+			<div class="showcase container">
+				<div class="row">
+					<div class="col s12 main-text">
+						<h3>Welcome to Inambero Solutions</h3>
+						<p lang="en" class="flow-text">
+							Bridging India and The Hispanic World: Through Solutions
+						</p>
+						<p lang="es" class="flow-text">
+							Tendiendo un puente entre la India y el mundo Hispano: através de las Soluciones
+							Informáticas
+						</p>
+						<br />
+						<a href="#about" class="btn btn-large light-blue black-text">Learn More</a>
+						<a href="#contact" class="white-text">
+							<i class="material-icons medium scroll-icon">arrow_drop_down_circle</i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Section: About -->
+	<section id="about" class="section section-about grey lighten-2 center scrollspy">
+		<div class="container">
+			<h2 lang="en">About Inambero</h2>
+			<h2 lang="es">Acerca de Inambero</h2>
+			<p lang="en" class="flow-text">
+				Inambero is a solutions-first organization, whose aim is to bridge the
+				existing gap between India and Latin-America. We provide tailor-made
+				solutions for all businesses emerging between these nations, looking
+				to expand globally.
+			</p>
+			<p lang="es" class="flow-text">
+				Inambero es una empresa que surge a partir de la inquietud de establecer conexiones entre India y el
+				mundo hispanohablante. Inambero proporciona soluciones simples y rentables a empresas de cualquier rubro
+				y proporción; con un equipo eficaz y altamente capacitado, nuestro compromiso es ofrecer respaldo en
+				marketing digital a cualquier negocio que busque expandirse más allá de una base local, dándoles acceso
+				a herramientas para su operación a escala global.
+			</p>
+			<div class="row">
+				<div class="col s12 m6">
+					<img src="img/tech.jpg" alt="" class="responsive-img circle" />
+				</div>
+				<div class="col s12 m5 offset-m1">
+					<br />
+					<ul class="collection with-header z-depth-4">
+						<li class="collection-header">
+							<h5>Services</h5>
+						</li>
+						<li class="collection-item">
+							<i class="material-icons left">check</i> Cost Effective Websites
+						</li>
+						<li class="collection-item">
+							<i class="material-icons left">check</i> App Development and
+							Maintainence
+						</li>
+						<li class="collection-item">
+							<i class="material-icons left">check</i> E-commerce Solutions
+						</li>
+						<li class="collection-item">
+							<i class="material-icons left">check</i> Digital Marketing
+							Solutions
+						</li>
+						<li class="collection-item">
+							<i class="material-icons left">check</i> Redesigning Services
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Section - Testimonials-->
+	<section id="testimonials" class="section-testimonials center scrollspy ">
+		<div class="carousel carousel-slider" data-indicators="true">
+			<div class="carousel-fixed-item">
+				<div class="container">
+					<h3 class="white-text">Testimonials</h3>
+				</div>
+			</div>
+			<div class="carousel-item red lighten-2 white-text" href="#one!">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m10 offset-m1">
+							<div class="card card-testimonials grey lighten-4 black-text z-depth-4">
+								<div class="card-content">
+									<p>
+										<em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+											modi reprehenderit dolore recusandae, quam voluptatum est
+											deserunt. Quae, quasi beatae!</em>
+									</p>
+								</div>
+								<div class="card-action">
+									<p>John Doe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item amber darken-2 white-text" href="#two!">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m10 offset-m1">
+							<div class="card card-testimonials grey lighten-4 black-text z-depth-4">
+								<div class="card-content">
+									<p>
+										<em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+											modi reprehenderit dolore recusandae, quam voluptatum est
+											deserunt. Quae, quasi beatae!</em>
+									</p>
+								</div>
+								<div class="card-action">
+									<p>John Doe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item green white-text" href="#three!">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m10 offset-m1">
+							<div class="card card-testimonials grey lighten-4 black-text z-depth-4">
+								<div class="card-content">
+									<p>
+										<em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+											modi reprehenderit dolore recusandae, quam voluptatum est
+											deserunt. Quae, quasi beatae!</em>
+									</p>
+								</div>
+								<div class="card-action">
+									<p>John Doe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item blue white-text" href="#four!">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m10 offset-m1">
+							<div class="card card-testimonials grey lighten-4 black-text z-depth-4">
+								<div class="card-content">
+									<p>
+										<em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+											modi reprehenderit dolore recusandae, quam voluptatum est
+											deserunt. Quae, quasi beatae!</em>
+									</p>
+								</div>
+								<div class="card-action">
+									<p>John Doe</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section: Contact -->
+	<section id="contact" class="section section-contact grey lighten-2 center scrollspy">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card-panel light-blue darken-2 white-text center">
+						<i class="material-icons medium">email</i>
+						<h5>Contact Us</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium
+							delectus. Sit, mollitia
+							quo. Veniam repellat voluptas ipsum doloremque?</p>
+					</div>
+					<ul class="collection with-header">
+						<li class="collection-header">
+							<h4>Location</h4>
+						</li>
+						<li class="collection-item">Inambero Solutions</li>
+						<li class="collection-item">555, XYZ ABC</li>
+						<li class="collection-item">Delhi, India</li>
+					</ul>
+				</div>
+				<div class="col s12 m6">
+					<div class="card-panel z-depth-5">
+						<h5>Please fill out this form</h5>
+						<div class="input-field">
+							<input type="text" id="name" placeholder="Name" />
+							<label for="name">Name</label>
+						</div>
+						<div class="input-field">
+							<input type="email" id="email" placeholder="Email" />
+							<label for="email">Email</label>
+						</div>
+						<div class="input-field">
+							<input type="text" id="phone" placeholder="Phone Number" />
+							<label for="phone">Phone</label>
+						</div>
+						<div class="input-field">
+							<textarea class="materialize-textarea" id="message" placeholder="Message"></textarea>
+							<label for="message">Message</label>
+						</div>
+						<input type="submit" value="Submit" class="btn blue-grey" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="page-footer blue-grey darken-2">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<ul>
+						<li>
+							<i class="material-icons center">phone_android</i>
+							<h6 class="info">(+91) 9237037182</h6>
+						</li>
+						<li>
+							<i class="material-icons center">email</i>
+							<h6 class="info">inambero@gmail.com</h6>
+						</li>
+					</ul>
+
+
+
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<ul>
+						<li>
+							<a class="white-text" href="#home">Home</a>
+						</li>
+						<li>
+							<a class="white-text" href="#about">About</a>
+						</li>
+						<li>
+							<a class="white-text" href="services.html">Services</a>
+						</li>
+						<li>
+							<a class="white-text" href="#testimonials">Testimonials</a>
+						</li>
+						<li>
+							<a class="white-text" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright blue-grey darken-4">
+			<div class="container">
+				Inambero Solutions © 2020
+				<a class="grey-text text-lighten-4 right" href="#!" onclick="topFunction()">
+					<i class="material-icons left">keyboard_arrow_up</i> Back To Top
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/language.js"></script>
+</body>
+
+</html>
