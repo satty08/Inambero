@@ -8,6 +8,7 @@
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 	<link type="text/css" rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="./css/nav.css" />
 
 	<link rel="icon" href="./img/logo-jpg.jpg" type="image/x-icon">
 
@@ -18,67 +19,26 @@
 
 <body id="home" class="scrollspy">
 	<header class="main-header">
-		<div class="primary-overlay">
-			<div class="navbar-fixed">
-				<nav class="transparent">
-					<div class="container">
-						<div class="nav-wrapper">
-							<img href="#home" src="./img/logo3.png" alt="logo" class="responsive-img logo-img">
-							<h4 class="brand-logo" href="#home">Inambero</h4>
-							<a href="#" data-activates="mobile-nav" class="button-collapse">
-								<i class="material-icons">menu</i>
-							</a>
-							<ul class="right hide-on-med-and-down">
-								<li>
-									<a href="#home">Home</a>
-								</li>
-								<li>
-									<a href="#about">About</a>
-								</li>
-								<li>
-									<a href="services.html">Services</a>
-								</li>
-								<li>
-									<a href="#testimonials">Testimonials</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<li>
-									<a onclick="changeLanguage()" id="language"
-										class="btn blue-grey darken-2">English</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
+		<nav class="">
+			<div class="logo">
+				<img src="./img/logo3.png" alt="Logo Image">
 			</div>
-			<!-- Side nav -->
-			<ul class="side-nav" id="mobile-nav">
-
-				<li>
-					<a class="divider"></a>
-				</li>
-				<li>
-					<a href="#home">Home</a>
-				</li>
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li>
-					<a href="services.html">Services</a>
-				</li>
-				<li>
-					<a href="#testimonials">Testimonials</a>
-				</li>
-				<li>
-					<a href="#contact">Contact</a>
-				</li>
-				<li>
-					<a onclick="changeLanguageMobile()" id="language-mobile" class="btn blue-grey darken-2">English</a>
-				</li>
+			<div class="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="./services.html">Services</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+				<li><button class="login-button" href="#">Login</button></li>
+				<li><button class="join-button" onclick="changeLanguage()" id="language" href="#">English</button></li>
 			</ul>
-			<!-- Showcase -->
+		</nav>			
+		<!-- Showcase -->
 			<div class="showcase container">
 				<div class="row">
 					<div class="col s12 main-text">
@@ -346,6 +306,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/nav.js" ></script>
 	<script type="text/javascript" src="js/language.js"></script>
 </body>
 
