@@ -80,3 +80,7 @@ i {
     padding-left: 3vw;
   }
 }
+
+.row{
+  display: inline;
+}

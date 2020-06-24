@@ -174,3 +174,15 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+#CONTACT {
+    text-align: center;
+}
+
+#NoteF {
+    opacity: 0;
+}
+
+#MailBody, #Base, #NoteBaseBackward, #Flap {
+    cursor: pointer;
+}
