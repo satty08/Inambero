@@ -1,7 +1,7 @@
 $(document).hide();
 
 $('[lang]').hide(); // hide all lang attributes on start.
-$('[lang="en"]').show(); 
+$('[lang="es"]').show(); 
 $('#language').click(function () { // put onchange event when user select option from select
     var lang = $(this).html(); // decide which language to display using switch case. The rest is obvious (i think)
     switch (lang) {
@@ -15,7 +15,7 @@ $('#language').click(function () { // put onchange event when user select option
         break;
         default:
             $('[lang]').hide();
-            $('[lang="en"]').show();
+            $('[lang="es"]').show();
         }
 });
 
@@ -32,7 +32,7 @@ $('#language-mobile').click(function () { // put onchange event when user select
         break;
         default:
             $('[lang]').hide();
-            $('[lang="en"]').show();
+            $('[lang="es"]').show();
         }
 });
 
